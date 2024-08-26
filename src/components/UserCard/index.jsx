@@ -5,6 +5,7 @@ import "./UserCard.css";
 
 const userName = constants.Person1.name;
 const userDesc = constants.Person1.description;
+const link = "";
 
 class Index extends Component {
   render() {
@@ -25,12 +26,12 @@ class Index extends Component {
             <button className="btn2">
               <a href="#" className="btn-link"></a>
             </button>
-            <div className="socials">
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
-            </div>
+          </div>
+          <div className="socials">
+            <a href={"https://ua.linkedin.com/" + link}></a>
+            <a href={"https://github.com/" + link}></a>
+            <a href={"https://www.instagram.com/" + link}></a>
+            <a href={"#" + link}></a>
           </div>
         </div>
       </div>
