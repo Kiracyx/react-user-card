@@ -1,8 +1,8 @@
 import React from "react";
-import "./UserAvatar.css";
+import img from "./images/John.png";
 
-function UserAvatar() {
-  return <img src="" className="avatar" />;
+function UserAvatar(props) {
+  return <img src={img} alt="Person 1" className={props.className} />;
 }
 
 export default UserAvatar;
